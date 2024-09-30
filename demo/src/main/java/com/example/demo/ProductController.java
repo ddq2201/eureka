@@ -13,6 +13,7 @@ import java.util.List;
 public class ProductController {
     @GetMapping
     public ResponseEntity<List<String>> getProducts() {
-        return ResponseEntity.ok(Arrays.asList("Product 1", "Product 2", "Product 3","Jenkin","Jenkin2"));
+        return ResponseEntity.ok(Arrays.asList("Product 1", "Product 2", "Product 3",
+                "Jenkin","Jenkin2","Jenkin3"));
     }
 }
